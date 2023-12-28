@@ -1,3 +1,5 @@
+//npm run deploy
+
 /**
  * Returns the week number for this date.  dowOffset is the day of week the week
  * "starts" on for your locale - it can be from 0 to 6. If dowOffset is 1 (Monday),
