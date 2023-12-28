@@ -7,6 +7,24 @@ html {
   box-sizing: inherit;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: none;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #1a1a1a;
@@ -23,6 +41,10 @@ body {
 
     max-width: 1280px;
     padding: 3rem 4rem;
+  }
+
+  #cookie-banner {
+    display: block;
   }
 }
 
@@ -130,4 +152,18 @@ button:hover {
 
 #pastanswers div:hover {
   background-color: #505050;
+}
+
+.right {
+  position: absolute;
+  left: auto;
+  right: 20px;
+  bottom: 20px;
+}
+
+.left {
+  position: absolute;
+  left: 125px;
+  right: auto;
+  bottom: 20px;
 }
