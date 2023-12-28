@@ -1,6 +1,11 @@
+if (localStorage.getItem("cookies-zoerb") === "accept") {
+  const cookieBanner = document.getElementById("cookie-banner");
+  cookieBanner.style.display = "none";
+}
 function hideBanner() {
   const cookieBanner = document.getElementById("cookie-banner");
   cookieBanner.style.display = "none";
+  localStorage.setItem("cookies-zoerb", "accept");
 }
 
 function hideDeclineButton() {
