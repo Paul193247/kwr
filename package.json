@@ -1,0 +1,14 @@
+{
+  "name": "kwr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vercel": "^33.0.1"
+  }
+}
