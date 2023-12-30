@@ -624,8 +624,8 @@ function countdown() {
   date = new Date();
   raetsel_div.innerHTML = `Dieser Kalender ist erst ab 2024 verfügbar. </br> Bitte komme in ${
     31 - date.getDate()
-  } Tagen, ${24 - date.getHours()} Stunden ${
-    60 - date.getMinutes()
+  } Tagen, ${23 - date.getHours()} Stunden ${
+    59 - date.getMinutes()
   } Minuten und ${60 - date.getSeconds()} Sekunden wieder.`;
   window.requestAnimationFrame(countdown);
 }
